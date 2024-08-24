@@ -86,7 +86,7 @@
     "name": "CodeLlama-7B-Python",
     "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf",
     "urls": [
-      "https://huggingface.co/TheBloke/CodeLlama-7B-Python-GGUF/blob/main/codellama-7b-python.Q8_0.gguf"
+      "https://huggingface.co/TheBloke/CodeLlama-7B-Python-GGUF/resolve/main/codellama-7b-python.Q8_0.gguf"
     ],
     "sha256": "4e3134ec4d544d1c3296cdc4bfecb230211e93c736c46e3daefdab21c13b17b9"
   },
@@ -95,9 +95,9 @@
     "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
     "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
     "name": "CodeLlama-7B-Instruct",
-    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-Instruct-hf",
     "urls": [
-      "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/blob/main/codellama-7b-instruct.Q8_0.gguf"
+      "https://huggingface.co/TheBloke/CodeLlama-7B-GGUF/resolve/main/codellama-7b.Q8_0.gguf"
     ],
     "sha256": "2126a5b9e8576ebea8889792ec5e459423935daae17ac0ffdfbedb39d222a20e"
   },
