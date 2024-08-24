@@ -79,6 +79,28 @@
     ],
     "sha256": "85763827a80d9067acdc1cb8ceafd2cd0a2644a87d0cf1cd4b75e8d7b8a2777d"
   },
+    {
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "name": "CodeLlama-7B-Python",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf",
+    "urls": [
+      "https://huggingface.co/TheBloke/CodeLlama-7B-Python-GGUF/blob/main/codellama-7b-python.Q8_0.gguf"
+    ],
+    "sha256": "4e3134ec4d544d1c3296cdc4bfecb230211e93c736c46e3daefdab21c13b17b9"
+  },
+    {
+    "license_name": "Llama 2",
+    "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+    "prompt_template": "<PRE> {prefix} <SUF>{suffix} <MID>",
+    "name": "CodeLlama-7B-Instruct",
+    "provider_url": "https://huggingface.co/codellama/CodeLlama-7b-Python-hf",
+    "urls": [
+      "https://huggingface.co/TheBloke/CodeLlama-7B-Instruct-GGUF/blob/main/codellama-7b-instruct.Q8_0.gguf"
+    ],
+    "sha256": "2126a5b9e8576ebea8889792ec5e459423935daae17ac0ffdfbedb39d222a20e"
+  },
   {
     "license_name": "Apache 2.0",
     "license_url": "https://choosealicense.com/licenses/apache-2.0/",
