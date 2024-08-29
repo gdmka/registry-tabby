@@ -113,6 +113,17 @@
         ]
     },
     {
+        "chat_template": "<s>{% for message in messages %}{% if (message['role'] == 'user') != (loop.index0 % 2 == 0) %}{{ raise_exception('Conversation roles must alternate user/assistant/user/assistant/...') }}{% endif %}{% if message['role'] == 'user' %}{{ '[INST] ' + message['content'] + ' [/INST]' }}{% elif message['role'] == 'assistant' %}{{ message['content'] + '</s> ' }}{% else %}{{ raise_exception('Only user and assistant roles are supported!') }}{% endif %}{% endfor %}",
+        "license_name": "Llama 2",
+        "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
+        "name": "Llama-31-8B-Instruct",
+        "provider_url": "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF",
+        "sha256": "332bcabfdcdb2c2e957b1c3dda6fe7832a814450df1f1393e0f50fd2fe5e3d90",
+        "urls": [
+            "https://huggingface.co/lmstudio-community/Meta-Llama-3.1-8B-Instruct-GGUF/resolve/main/Meta-Llama-3.1-8B-Instruct-Q8_0.gguf"
+        ]
+    },
+    {
         "license_name": "Llama 2",
         "license_url": "https://github.com/facebookresearch/llama/blob/main/LICENSE",
         "name": "CodeLlama-13B-Python",
